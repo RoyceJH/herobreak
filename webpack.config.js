@@ -1,7 +1,7 @@
 module.exports = {
   entry: './lib/break-hero.js',
   output: {
-    filename: './lib/bundle.js'
+    filename: './bundle.js'
   },
   devtool: 'source-map',
 };

@@ -1,0 +1,19 @@
+html, body, div, object, h1, h2, h3, h4, canvas, header, footer,
+nav, img, i, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  margin-top: 10%;
+  border: 1px solid red;
+}

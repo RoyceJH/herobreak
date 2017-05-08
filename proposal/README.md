@@ -21,7 +21,7 @@ This app will consist of a single screen with a game board, game controls, and n
 This app will be implemented with the following technologies:
 
 - `JavaScript` for game logic,
-- `Easel.js` a framework for canvas? html5?
+- `canvas`
 
 `monsters.js`: will handle the logic of filling the rows with monsters and keeping track of hit points
 

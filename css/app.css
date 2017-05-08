@@ -4,7 +4,8 @@ nav, img, i, section, button {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: sans-serif;
+  font-family: 'Russo One', sans-serif;
+  color: #453522;
 }
 
 body {
@@ -13,17 +14,19 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #ded4b9;
 }
 
 header {
-  border: 1px solid green;
   width: 80%;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Russo One', sans-serif;
   font-size: 40px;
+}
+
+header h1 {
+  letter-spacing: 1px;
 }
 
 .main-content {
@@ -31,18 +34,19 @@ header {
 }
 
 #canvas {
-  border: 1px solid red;
+  border: 2px solid black;
 }
 
 .site-links {
-  border: 1px solid yellow;
   width: 200px;
   display: flex;
-  height: 300px;
+  justify-content: space-around;
+  height: 50px;
   font-size: 30px;
 }
 
 .instructions {
+  height: 300px;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -65,36 +69,63 @@ header {
 }
 
 .modal {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: #ded4b9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.modal-content h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
 }
 
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  position: absolute;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  color: #414eff;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25%;
+}
+
+.instructions {
+  display: flex;
+  justify-content: space-around;
 }

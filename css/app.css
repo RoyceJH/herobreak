@@ -114,6 +114,10 @@ header h1 {
   font-size: 20px;
 }
 
+.site-links i {
+  font-size: 24px;
+}
+
 i, a {
   cursor: pointer;
   text-decoration: none;

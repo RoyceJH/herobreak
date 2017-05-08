@@ -4,13 +4,45 @@
     <meta charset="utf-8">
     <script src="./lib/bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/8b8e7698a0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <link href="./css/app.css" rel="stylesheet" type="text/css" />
 
     </script>
     <title>Hero Break</title>
   </head>
   <body>
-    <canvas id="canvas" width="480" height="700"></canvas>
+    <header class="header">
+      <h1>HERO BREAK</h1>
+    </header>
+    <div class="main-content">
+      <canvas id="canvas" width="480" height="700"></canvas>
+    </div>
+
+    <nav class='site-links'>
+      <i class="fa fa-github" aria-hidden="true"></i>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </nav>
+      <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <nav class='site-links instructions'>
+          <aside class="space-desc">
+            <button class='space' type="text" name="button">Spacebar</button>
+            <span>Starts turn, launching your breakers.</span>
+          </aside>
+          <aside class="arrow-desc">
+            <div class='button-holder'>
+              <button class='arrow' type="text" name="button">◀</button>
+              <button class='arrow' type="text" name="button">▶</button>
+            </div>
+            <span>Move the pointer, changing the angle of the breakers.</span>
+          </aside>
+        </nav>
+      </div>
+    </div>
 
   </body>
 </html>

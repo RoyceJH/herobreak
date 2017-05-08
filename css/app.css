@@ -1,5 +1,5 @@
 html, body, div, object, h1, h2, h3, h4, canvas, header, footer,
-nav, img, i, section, button {
+nav, img, i, section, button, a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -110,11 +110,21 @@ header h1 {
   cursor: pointer;
 }
 
-i {
-  cursor: pointer;
+.site-links a {
+  font-size: 20px;
 }
 
-i:hover {
+i, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa, a{
+  display: flex;
+  align-items: center;
+}
+
+i:hover, a:hover {
   color: #414eff;
 }
 

@@ -27,14 +27,17 @@ header {
 
 header h1 {
   letter-spacing: 1px;
+  paddig-bottom
 }
 
 .main-content {
   display: flex;
+  margin-left: 253px;
 }
 
 #canvas {
   border: 2px solid black;
+  position: relative;
 }
 
 .site-links {
@@ -147,6 +150,10 @@ aside {
 .status {
   width: 25%;
   height: 700px;
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 button {
@@ -161,6 +168,11 @@ button {
   cursor: pointer;
   background-color: #5d402b;
   color: white;
+  margin: 5px 0px;
+}
+
+.status span {
+  margin-bottom: 10px;
 }
 
 .status button:hover {

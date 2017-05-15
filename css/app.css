@@ -32,6 +32,7 @@ header h1 {
 
 .main-content {
   display: flex;
+  position: relative;
   margin-left: 153px;
 }
 
@@ -89,7 +90,7 @@ header h1 {
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 30%;
 }
 
 .modal-content h1 {
@@ -190,7 +191,7 @@ button {
 
 .restart-button {
   position: absolute;
-  left: -100px;
+  left: -1000px;
 }
 
 .restart-button button {
@@ -199,9 +200,22 @@ button {
   color: white;
   padding: 7px 10px;
   border-radius: 4px;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 .restart-button button:hover {
   cursor: pointer;
   background: rgba(93, 64, 43, 0.72);
+}
+
+.space-desc {
+  flex-direction: row;
+  align-items: center;
+}
+
+.cursor {
+  width: 50px;
+  height: 50px;
 }

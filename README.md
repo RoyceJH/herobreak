@@ -2,7 +2,8 @@
 
 **Hero Break** is a browser game written in JavaScript and inspired by Brick Breaker. The aim is to reach and defeat the boss before the monsters deplete your health by reaching the bottom.
 
-![screenshot](assets/screenshots/screenshot.png)
+![screenshot](assets/screenshots/screenshot1.png)
+
 
 ## Technologies
 **Hero Break** is built using ES6 syntax JavaScript and HTML5 canvas for rendering elements onto the screen. At every set interval, the canvas is cleared of all elements on the screen and re-draws them based on their new coordinates.

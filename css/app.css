@@ -187,3 +187,21 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+.restart-button {
+  position: absolute;
+  left: -100px;
+}
+
+.restart-button button {
+  background: #5d402b;
+  letter-spacing: 1px;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 4px;
+}
+
+.restart-button button:hover {
+  cursor: pointer;
+  background: rgba(93, 64, 43, 0.72);
+}

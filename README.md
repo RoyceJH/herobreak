@@ -1,5 +1,5 @@
 # Hero Break
-[HeroBreak live](http://www.roycekim.com/herobreak)
+[HeroBreak live](https://roycejh.github.io/herobreak/))
 
 **Hero Break** is a browser game written in JavaScript and inspired by Brick Breaker. The aim is to reach and defeat the boss before the monsters deplete your health by reaching the bottom.
 
